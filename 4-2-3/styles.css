@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 20vh;
+}
+
+.links-section-one {
+    width: 10%;
+    float: left;
+}
+
+.inner-links-section-one {
+    text-align: left;
+}
+
+.links-section-two {
+    width: 10%;
+    float: left;
+}
+
+.inner-links-section-two {
+    text-align: left;
+}
+
+.links-section-three {
+    width: 10%;
+    float: left;
+}
+
+.inner-links-section-three {
+    text-align: left;
+}
+
+.links-section-four {
+    width: 10%;
+    float: left;
+}
+
+.inner-links-section-four {
+    text-align: left;
+}
+
+div a p {
+    height: 11vh;
+    line-height: 11vh;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-section {
+    width: 48%;
+    float: right;
+}
+
+.inner-logo-section {
+    text-align: right;
+}
+
+.content {
+    height: 80vh;
+    margin-bottom: 100px;
+}
+
+.main-header-text {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-header-one,
+.image-header-two,
+.image-header-three {
+    text-align: center;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+}
+
+.sidebar-pic-one {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sidebar-pic-two {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sidebar-pic-three {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sidebar-one,
+.sidebar-two,
+.sidebar-three {
+    object-fit: cover;
+    height: 100px;
+    width: 100%;
+}
+
+.image {
+    width: 60%;
+    float: left;
+}
+
+.thumbnails {
+    width: 20%;
+    float: left;
+}
+
+
+.first-pic {
+    display: inline-block;
+    width: 40%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.second-pic {
+    display: inline-block;
+    width: 40%;
+    margin-top: 10px;
+}
+
+.third-pic {
+    width: 40%;
+}
+
+.third-pic {
+    display: inline-block;
+    margin: 0px 62px;
+}
+
+.thumb-one,
+.thumb-two,
+.thumb-three {
+    object-fit: cover;
+    height: 100px;
+    width: 100%;
+}
+
+.footer {
+    height: 30vh;
+}
+
+.section-one {
+    width: 30%;
+    float: left;
+}
+
+.section-two {
+    width: 30%;
+    float: left;
+}
+
+.section-three {
+    width: 30%;
+    float: left;
+}

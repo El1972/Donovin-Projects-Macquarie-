@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 20vh;
+}
+
+.links-section-one {
+    width: 10%;
+    float: left;
+}
+
+.inner-links-section-one {
+    text-align: left;
+}
+
+.links-section-two {
+    width: 10%;
+    float: left;
+}
+
+.inner-links-section-two {
+    text-align: left;
+}
+
+.links-section-three {
+    width: 10%;
+    float: left;
+}
+
+.inner-links-section-three {
+    text-align: left;
+}
+
+.links-section-four {
+    width: 10%;
+    float: left;
+}
+
+.inner-links-section-four {
+    text-align: left;
+}
+
+div a p {
+    height: 11vh;
+    line-height: 11vh;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-section {
+    width: 48%;
+    float: right;
+}
+
+.inner-logo-section {
+    text-align: right;
+}
+
+.bwpasta-logo {
+    width: 48%;
+    object-fit: cover;
+}
+
+.content {
+    height: 50vh;
+}
+
+.main-header-text {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.pasta-hero {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+.image-header-one,
+.image-header-two,
+.image-header-three {
+    text-align: center;
+}
+
+.image-one {
+    width: 15%;
+    float: left;
+}
+
+.image-two {
+    width: 15%;
+    float: left;
+}
+
+.image-three {
+    width: 15%;
+    float: left;
+}
+
+.right-text {
+    width: 30%;
+    float: right;
+}
+
+.inner-right-text {
+    padding: 5px 0px 5px 5px;
+}
+
+.right-text-edit {
+    background-color: #581012;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.inner-image-one {
+    padding: 5px 5px 5px 0px;
+}
+
+.inner-image-two,
+.inner-image-three {
+    padding: 5px;
+}
+
+.pasta-one,
+.pasta-two,
+.pasta-three {
+    object-fit: cover;
+    height: 100px;
+    width: 100%;
+}
+
+.footer {
+    height: 30vh;
+}
+
+.section-one {
+    width: 16.5%;
+    float: left;
+}
+
+.section-two {
+    width: 16.5%;
+    float: left;
+}
+
+.section-three {
+    width: 16.5%;
+    float: left;
+}
+
+.section-four {
+    width: 16.5%;
+    float: left;
+}
+
+.section-five {
+    width: 34%;
+    float: left;
+}
