@@ -197,6 +197,149 @@ div a {
 }
 
 
+/* Menu Page */
+
+.inner-menu-title {
+    text-align: center;
+}
+
+.locations {
+    width: 35%;
+    float: left;
+}
+
+.inner-locations {
+    padding-top: 60px;
+}
+
+.dif-locations {
+    text-align: left;
+    padding: 0px 90px;
+}
+
+.las-vegas {
+    text-align: left;
+    padding: 0px 90px;
+}
+
+.first-restaurant {
+    padding-left: 41px;
+}
+
+.las-vegas-restaurant {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.second-restaurant {
+    padding-left: 41px;
+}
+
+.los-angeles-restaurant {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.third-restaurant {
+    padding-left: 41px;
+}
+
+.miami-restaurant {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.los-angeles {
+    text-align: left;
+    padding: 0px 90px;
+}
+
+.miami {
+    text-align: left;
+    padding-left: 90px;
+}
+
+.drinks {
+    width: 30%;
+    float: left;
+}
+
+.inner-drinks {
+    padding-left: 90px;
+    padding-top: 60px;
+}
+
+.text-drinks {
+    text-align: left;
+    padding: 0px 90px 20px 90px;
+}
+
+.first-glass {
+    padding-left: 58px;
+}
+
+.wine-bottles {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.second-glass {
+    padding-left: 58px;
+}
+
+.licquor-bottles {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.third-glass {
+    padding-left: 58px;
+}
+
+.cocktail-bottles {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.info {
+    width: 30.3333%;
+    float: left;
+}
+
+.inner-info {
+    padding-left: 90px;
+    padding-top: 60px;
+}
+
+.info-header {
+    text-align: left;
+}
+
+.info-content {
+    text-align: left;
+}
+
+.info-text {
+    text-align: left;
+}
+
+.info-goal {
+    text-align: left;
+}
+
+.info-goal-text {
+    text-align: left;
+}
+
+/* End Of Menu Page */
+
+
 /* About Page */
 
 .about-image-content {
@@ -222,6 +365,10 @@ div a {
     float: left;
 }
 
+.inner-about-info-content {
+    padding: 0px 80px;
+}
+
 /* End Of About Page */
 
 
@@ -231,7 +378,10 @@ div a {
 .contact-main {
     max-width: 950px;
     margin: 0 auto;
-    padding-top: 40px;
+}
+
+.contact-title {
+    text-align: center;
 }
 
 .contact-form {
@@ -248,7 +398,7 @@ input[type="first_name"] {
     padding: 8px 0px;
     display: block;
     width: 256.5px;
-    background-color: #F9F9F9;
+    background-color: #ffffff;
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -260,7 +410,7 @@ input[type="last_name"] {
     padding: 5px 0px;
     display: block;
     width: 256.5px;
-    background-color: #F9F9F9;
+    background-color: #ffffff;
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -279,7 +429,7 @@ input[type="email"] {
     padding: 5px 0px;
     display: block;
     width: 256.5px;
-    background-color: #F9F9F9;
+    background-color: #ffffff;
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
