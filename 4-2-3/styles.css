@@ -94,7 +94,6 @@ div a {
 }
 
 .hero-image {
-    display: block;
     width: 100%;
     object-fit: cover;
 }
@@ -476,3 +475,89 @@ button {
 }
 
 /* End Of Contact Page */
+
+
+
+/* Cart */
+
+.cart {
+    text-align: center;
+}
+
+.first-item {
+    width: 25%;
+    float: left;
+}
+
+.inner-first-item {
+    padding-top: 50px;
+}
+
+.suit-purchase-name {
+    padding: 7px 0px;
+}
+
+.suit-purchase {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.second-item {
+    width: 25%;
+    float: left;
+}
+
+.inner-second-item {
+    padding-top: 50px;
+}
+
+.dinner-reservation-name {
+    padding: 7px 0px;
+}
+
+.dinner-reservation {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.third-item {
+    width: 25%;
+    float: left;
+}
+
+.inner-third-item {
+    padding-top: 50px;
+}
+
+.drink-purchase-name {
+    padding: 7px 0px;
+}
+
+.drink-purchase {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.fourth-item {
+    width: 25%;
+    float: left;
+}
+
+.inner-fourth-item {
+    padding-top: 50px;
+}
+
+.wine-purchase-name {
+    padding: 7px 0px;
+}
+
+.wine-purchase {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+/* End Of Cart */
