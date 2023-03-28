@@ -180,12 +180,11 @@ div a {
 .footer-column-first li {
     font-family: 'helveticaneuelight';
     font-size: 14px;
-    /* border-bottom: 1px solid #C5C5C5; */
+    border-bottom: 1px solid #C5C5C5;
     display: inline-block;
     color: #222222;
     font-size: 13.5px;
     letter-spacing: 1px;
-    text-decoration: underline;
 }
 
 .footer-column-two {
@@ -203,16 +202,11 @@ div a {
 .footer-column-second li {
     font-family: 'helveticaneuelight';
     font-size: 14px;
-    /* border-bottom: 1px solid #C5C5C5; */
+    border-bottom: 1px solid #C5C5C5;
     display: inline-block;
     color: #222222;
     font-size: 13.5px;
     letter-spacing: 1px;
-    text-decoration: underline;
-}
-
-.footer-header {
-    padding-bottom: 10px;
 }
 
 .footer-column-two-styling ul li {
@@ -222,10 +216,6 @@ div a {
 .footer-column-three {
     width: 30.3333%;
     float: left;
-}
-
-.footer li {
-    width: 60%;
 }
 
 .footer-column-three-styling ul li {
@@ -242,12 +232,11 @@ div a {
 .footer-column-third li {
     font-family: 'helveticaneuelight';
     font-size: 14px;
-    /* border-bottom: 1px solid #C5C5C5; */
+    border-bottom: 1px solid #C5C5C5;
     display: inline-block;
     color: #222222;
     font-size: 13.5px;
     letter-spacing: 1px;
-    text-decoration: underline;
 }
 
 
@@ -451,8 +440,20 @@ div a {
     padding-left: 110px;
 }
 
-input[type="text"] {
+input[type="first_name"] {
     padding: 8px 0px;
+    display: block;
+    width: 256.5px;
+    background-color: #ffffff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-width: 1px;
+    outline: transparent;
+}
+
+input[type="last_name"] {
+    padding: 5px 0px;
     display: block;
     width: 256.5px;
     background-color: #ffffff;
@@ -471,7 +472,7 @@ input[type="text"] {
 }
 
 input[type="email"] {
-    padding: 8px 0px;
+    padding: 5px 0px;
     display: block;
     width: 256.5px;
     background-color: #ffffff;
