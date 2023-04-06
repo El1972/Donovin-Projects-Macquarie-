@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 10vh;
+}
+
+.tool {
+    padding-right: 410px;
+    margin-right: 250px;
+}
+
+ul li.logo-parent a {
+    text-decoration: none;
+}
+
+img.logo-image {
+    height: 60px;
+    object-fit: cover;
+    text-align: left;
+    padding-right: 150px;
+}
+
+.ordered_list li.menu-link {
+    float: right;
+    width: 10%;
+}
+
+ul li.menu-link {
+    list-style: none;
+    padding-left: 50px;
+    margin-left: 20px;
+    height: 7vh;
+    line-height: 7vh;
+}
+
+ul li .logo-parent a {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+
+ul li.menu-link a {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+
+.content {
+    height: 55vh;
+}
+
+.main-header-text {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.image-header-one,
+.image-header-two,
+.image-header-three {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.image-one-container {
+    width: 33.3333%;
+    float: left;
+}
+
+.inner-image-one-container {
+    padding: 0px 80px;
+}
+
+.pizza-one,
+.pizza-two,
+.pizza-three {
+    object-fit: cover;
+    height: 200px;
+}
+
+.image-two-container {
+    width: 33.3333%;
+    float: left;
+}
+
+.inner-image-two-container {
+    padding: 0px 80px;
+    margin-bottom: 51px;
+}
+
+.image-three-container {
+    width: 33.3333%;
+    float: left;
+}
+
+.inner-image-three-container {
+    padding: 0px 80px;
+}
+
+.mission-text {
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mission-title {
+    text-align: center;
+}
+
+.inner-mission-text {
+    padding: 5px 0px 5px 5px;
+}
+
+.mission-text-edit {
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.footer {
+    height: 35vh;
+}
+
+.footer-properties {
+    padding-top: 160px;
+    margin-top: 20px;
+}
+
+.footer-column-one {
+    width: 30.3333%;
+    float: left;
+}
+
+.footer-column-one-styling,
+.footer-column-two-styling,
+.footer-column-three-styling {
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+
+.footer-column-one-styling ul li {
+    list-style-type: none;
+}
+
+.footer-column-one-styling .footer-header {
+    font-family: 'helveticaneuelight';
+    font-size: 15px;
+    color: #222222;
+    letter-spacing: .5px;
+}
+
+.footer-column-first li {
+    font-family: 'helveticaneuelight';
+    font-size: 14px;
+    /* border-bottom: 1px solid #C5C5C5; */
+    display: inline-block;
+    color: #222222;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.footer-column-two {
+    width: 30.3333%;
+    float: left;
+}
+
+.footer-column-two-styling .footer-header {
+    font-family: 'helveticaneuelight';
+    font-size: 15px;
+    color: #222222;
+    letter-spacing: .5px;
+}
+
+.footer-column-second li {
+    font-family: 'helveticaneuelight';
+    font-size: 14px;
+    /* border-bottom: 1px solid #C5C5C5; */
+    display: inline-block;
+    color: #222222;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.footer-header {
+    padding-bottom: 10px;
+}
+
+.footer-column-two-styling ul li {
+    list-style-type: none;
+}
+
+.footer-column-three {
+    width: 30.3333%;
+    float: left;
+}
+
+.footer li {
+    width: 60%;
+}
+
+.footer-column-three-styling ul li {
+    list-style-type: none;
+}
+
+.footer-column-three-styling .footer-header {
+    font-family: 'helveticaneuelight';
+    font-size: 15px;
+    color: #222222;
+    letter-spacing: .5px;
+}
+
+.footer-column-third li {
+    font-family: 'helveticaneuelight';
+    font-size: 14px;
+    /* border-bottom: 1px solid #C5C5C5; */
+    display: inline-block;
+    color: #222222;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+
+/* Menu Page */
+
+.inner-menu-title {
+    text-align: center;
+}
+
+.menu-header {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.locations {
+    width: 35%;
+    float: left;
+}
+
+.inner-locations {
+    padding-top: 60px;
+}
+
+.dif-locations {
+    text-align: left;
+    padding: 0px 90px;
+}
+
+.las-vegas {
+    text-align: left;
+    padding: 0px 90px;
+}
+
+.first-restaurant {
+    padding-left: 41px;
+}
+
+.las-vegas-restaurant {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.second-restaurant {
+    padding-left: 41px;
+}
+
+.los-angeles-restaurant {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.third-restaurant {
+    padding-left: 41px;
+}
+
+.miami-restaurant {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.los-angeles {
+    text-align: left;
+    padding: 0px 90px;
+}
+
+.miami {
+    text-align: left;
+    padding-left: 90px;
+}
+
+.drinks {
+    width: 30%;
+    float: left;
+}
+
+.inner-drinks {
+    padding-left: 90px;
+    padding-top: 60px;
+}
+
+.text-drinks {
+    text-align: left;
+    padding: 0px 90px 20px 90px;
+}
+
+.first-glass {
+    padding-left: 58px;
+}
+
+.wine-bottles {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.second-glass {
+    padding-left: 58px;
+}
+
+.licquor-bottles {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.third-glass {
+    padding-left: 58px;
+}
+
+.cocktail-bottles {
+    object-fit: cover;
+    height: 80px;
+    width: 77%;
+}
+
+.info {
+    width: 30.3333%;
+    float: left;
+}
+
+.inner-info {
+    padding-left: 90px;
+    padding-top: 60px;
+}
+
+.info-header {
+    text-align: left;
+}
+
+.info-content {
+    text-align: left;
+}
+
+.info-text {
+    text-align: left;
+}
+
+.info-goal {
+    text-align: left;
+}
+
+.info-goal-text {
+    text-align: left;
+}
+
+/* End Of Menu Page */
+
+
+
+
+/* About Page */
+
+.about-image-content {
+    width: 50%;
+    float: left;
+}
+
+.inner-about-image-content {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 80px 80px;
+}
+
+.about-pasta {
+    object-fit: cover;
+
+}
+
+.about-info-content {
+    width: 50%;
+    float: left;
+}
+
+.inner-about-info-content {
+    padding: 80px 80px;
+}
+
+/* End Of About Page */
+
+
+
+
+/* Contact Page */
+
+.contact-main {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.emails-header {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.contact-form {
+    width: 50%;
+    float: left;
+}
+
+.inner-contact-form {
+    padding-top: 60px;
+    padding-left: 110px;
+}
+
+input[type="text"] {
+    padding: 8px 0px;
+    display: block;
+    width: 256.5px;
+    background-color: #ffffff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-width: 1px;
+    outline: transparent;
+}
+
+::placeholder {
+    font-size: 16px;
+    font-family: 'helveticaneuelight';
+    color: #555555;
+
+}
+
+input[type="email"] {
+    padding: 8px 0px;
+    display: block;
+    width: 256.5px;
+    background-color: #ffffff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-width: 1px;
+    outline: transparent;
+}
+
+textarea {
+    margin-top: 9px;
+    outline: transparent;
+}
+
+button {
+    margin-top: 20px;
+    background-color: black;
+}
+
+.submit {
+    padding: 5px;
+    display: block;
+    width: 256.5px;
+    border-radius: 30px;
+    border: 1px solid rgb(135, 135, 135);
+    cursor: pointer;
+    font-family: 'helveticaneueultralight';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.contact-info {
+    width: 50%;
+    float: left;
+}
+
+.inner-contact-info {
+    padding: 60px 0px;
+    padding-left: 110px;
+}
+
+.contact-info-text {}
+
+.base {
+    padding-top: 20px;
+}
+
+/* End Of Contact Page */

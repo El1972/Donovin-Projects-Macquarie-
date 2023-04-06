@@ -16,63 +16,48 @@
 }
 
 .header {
-    height: 20vh;
+    height: 10vh;
 }
 
-.logo-section {
-    width: 50%;
-    float: left;
+.tool {
+    padding-right: 410px;
+    margin-right: 250px;
 }
 
-.logo-image {
-    width: 48%;
+ul li.logo-parent a {
+    text-decoration: none;
+}
+
+img.logo-image {
+    height: 60px;
     object-fit: cover;
+    text-align: left;
+    padding-right: 150px;
 }
 
-.links-section-one {
-    width: 10%;
+.ordered_list li.menu-link {
     float: right;
-}
-
-.inner-links-section-one {
-    text-align: right;
-}
-
-.links-section-two {
     width: 10%;
-    float: right;
 }
 
-.inner-links-section-two {
-    text-align: right;
+ul li.menu-link {
+    list-style: none;
+    padding-left: 50px;
+    margin-left: 20px;
+    height: 7vh;
+    line-height: 7vh;
 }
 
-.links-section-three {
-    width: 10%;
-    float: right;
-}
-
-.inner-links-section-three {
-    text-align: right;
-}
-
-.links-section-four {
-    width: 10%;
-    float: right;
-}
-
-.inner-links-section-four {
-    text-align: right;
-}
-
-div a p {
-    height: 11vh;
-    line-height: 11vh;
-}
-
-div a {
+ul li .logo-parent a {
     text-decoration: none;
     color: black;
+    text-align: right;
+}
+
+ul li.menu-link a {
+    text-decoration: none;
+    color: black;
+    text-align: right;
 }
 
 .content {
@@ -81,7 +66,8 @@ div a {
 
 .main-header-text {
     text-align: center;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 70px;
 }
 
 .image-header-one,
@@ -146,11 +132,11 @@ div a {
 }
 
 .footer {
-    height: 25vh;
+    height: 35vh;
 }
 
 .footer-properties {
-    padding-top: 100px;
+    padding-top: 160px;
     margin-top: 20px;
 }
 
@@ -255,6 +241,11 @@ div a {
 
 .inner-menu-title {
     text-align: center;
+}
+
+.menu-header {
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 .locations {
@@ -407,12 +398,11 @@ div a {
     display: block;
     width: 100%;
     text-align: center;
-    padding: 0px 80px;
+    padding: 80px 80px;
 }
 
 .about-pasta {
     object-fit: cover;
-    /* width: 100%; */
 
 }
 
@@ -422,7 +412,7 @@ div a {
 }
 
 .inner-about-info-content {
-    padding: 0px 80px;
+    padding: 80px 80px;
 }
 
 /* End Of About Page */
@@ -439,6 +429,11 @@ div a {
 
 .contact-title {
     text-align: center;
+}
+
+.emails-header {
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 .contact-form {

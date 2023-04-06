@@ -17,76 +17,48 @@
 }
 
 .header {
-    min-height: 20vh;
+    min-height: 10vh;
 }
 
-.links-section-one {
-    width: 10%;
-    float: left;
+.tool {
+    padding-right: 410px;
+    margin-right: 250px;
 }
 
-.inner-links-section-one {
+ul li.logo-parent a {
+    text-decoration: none;
+}
+
+img.logo-image {
+    height: 60px;
+    object-fit: cover;
     text-align: left;
+    padding-left: 200px;
 }
 
-.links-section-two {
-    width: 10%;
-    float: left;
+.ordered_list li.menu-link {
+    float: right;
+    width: 7.5%;
 }
 
-.inner-links-section-two {
-    text-align: left;
+ul li.menu-link {
+    list-style: none;
+    padding-left: 50px;
+    margin-left: 20px;
+    height: 7vh;
+    line-height: 7vh;
 }
 
-.links-section-three {
-    width: 10%;
-    float: left;
-}
-
-.inner-links-section-three {
-    text-align: left;
-}
-
-.links-section-four {
-    width: 10%;
-    float: left;
-}
-
-.inner-links-section-four {
-    text-align: left;
-}
-
-.links-section-five {
-    width: 10%;
-    float: left;
-}
-
-.inner-links-section-five {
-    text-align: left;
-}
-
-div a p {
-    height: 11vh;
-    line-height: 11vh;
-}
-
-div a {
+ul li .logo-parent a {
     text-decoration: none;
     color: black;
-}
-
-.logo-section {
-    width: 48%;
-    float: right;
-}
-
-.inner-logo-section {
     text-align: right;
 }
 
-.bwpasta-logo {
-    width: 48%;
-    object-fit: cover;
+ul li.menu-link a {
+    text-decoration: none;
+    color: black;
+    text-align: right;
 }
 
 .content {
@@ -95,7 +67,8 @@ div a {
 
 .main-header-text {
     text-align: center;
-    padding-bottom: 25px;
+    padding-top: 35px;
+    padding-bottom: 70px;
 }
 
 .pasta-hero {
