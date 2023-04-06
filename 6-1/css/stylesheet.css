@@ -4,7 +4,17 @@
     box-sizing: border-box;
 }
 
-.clearfix::after {
+@font-face {
+    font-family: majestibanner;
+    src: url(../css/Majesti-Banner-BoldItalic.otf) format("opentype");
+}
+
+h1 {
+    font-family: majestibanner;
+}
+
+.clearfix::after,
+.clearfix::before {
     content: "";
     display: block;
     clear: both;
@@ -19,9 +29,13 @@
     min-height: 5vh;
 }
 
-.tool {
-    padding-right: 410px;
-    margin-right: 250px;
+.logo {
+    float: left;
+    width: 20%;
+}
+
+nav {
+    width: 100%;
 }
 
 ul li.logo-parent a {
@@ -32,7 +46,7 @@ img.logo-image {
     height: 60px;
     object-fit: cover;
     text-align: left;
-    padding-right: 150px;
+    width: 37%;
 }
 
 .ordered_list li.menu-link {
@@ -52,7 +66,7 @@ ul li.menu-link {
 .menu:hover,
 .about:hover,
 .contact:hover {
-    color: blue;
+    color: rgb(95 19 18);
 }
 
 ul li .logo-parent a {
